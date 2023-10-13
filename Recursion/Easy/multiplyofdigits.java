@@ -1,3 +1,4 @@
+package recursion.easy;
 public class multiplyofdigits {
     public static void main(String[] args) {
         int n = 2420;

@@ -1,3 +1,4 @@
+package recursion.easy;
 public class Basic{
     public static void main(String[] args) {
         print(1); // function to print 1 2 3 4 5
