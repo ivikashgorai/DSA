@@ -1,3 +1,4 @@
+package recursion.easy;
 public class zeros {
     static int sum =0;
     public static void main(String[] args) {
