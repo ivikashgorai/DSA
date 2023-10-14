@@ -8,11 +8,11 @@ public class LinearSearchImportant {
         int n = arr.length;
         int target = 4;
         int index = 0;
-        // ArrayList<Integer> list = new ArrayList<>(); // creating a arraylist
-        // System.out.println(linear(arr, n, target, index));
+        ArrayList<Integer> list = new ArrayList<>(); // creating a arraylist
+        System.out.println(linear(arr, n, target, index));
         // taking all element on that array list
          // humlog yaha se list wala arraylist ko bheje hai aur isi mein changes hoga
-        // System.out.println(linearlist(arr, n, target, index, list));
+        System.out.println(linearlist(arr, n, target, index, list));
         // without arraylist in parameter
          System.out.println(linearlist2(arr, n, target, index));
     }
