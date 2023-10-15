@@ -15,12 +15,12 @@ public class SelectionSort {
         if(n==0){
             return arr;
         }
-        if(n>index){
+        if(n>=index){ // as it will chek till last index
             if(arr[index]>max){
                 max = arr[index];
                 swapindex = index;
             }
-            sort(arr, n,index+1,max,swapindex);
+          return sort(arr, n,index+1,max,swapindex);
         }
        else{
             int temp = arr[n];
