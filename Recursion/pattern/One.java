@@ -9,32 +9,34 @@ public class One {
         // System.out.println(); 
         // }
         // }
-        pattern(5, 0);
+        pattern1(5, 0);
         pattern2(5, 0);
+      
     }
-
-    public static void pattern(int row, int col) {
-        if (row == 0) {
+    public static void pattern1(int row,int col){
+        if(row==0){
             return;
-        } 
-        if (row > col) {
+        }
+        if(row>col){
             System.out.print("*");
-            pattern(row, col += 1);
-        } else {
+            pattern1(row, col+1);
+        }
+        else{
             System.out.println();
-            pattern(row -= 1, 0);
-        } 
+            pattern1(row-1, 0);
+        }
     }
-    public static void pattern2(int row, int col) {
-        if (row == 0) {
+    public static void pattern2(int row,int col){
+        if(row==0){
             return;
-        }// remain in stack until the base condition is met we know then execute
-        if (row > col) {
+        }
+        if(row>col){
             pattern2(row, col+1);
              System.out.print("*");
-        } else {
+        }
+        else{
             pattern2(row-1, 0);
-             System.out.println();
+            System.out.println();
         }
     }
 }

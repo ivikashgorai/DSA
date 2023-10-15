@@ -1,30 +1,46 @@
 package recursion.pattern;
 
-public class BubbleSort {
+import java.util.Arrays;
+
+public class BubbleSort{
     public static void main(String[] args) {
-        int arr[] = {3,5,2,6,8,1,3,2};
+        int[] arr = {4,3,2,1,0};
         int n = arr.length-1;
-        int index =0;
-        bubble(arr,n,index);
-        for(int i=0;i<n;i++){
-            System.out.println(arr[i]);
-        }
+        int index = 0;
+        System.out.println(Arrays.toString(sort(arr, n, index)));
+        System.out.println(Arrays.toString(arr));
     }
-    static void bubble(int arr[],int n,int index){
+    public static int[] sort(int[] arr,int n, int index){ // this will return a array, also this willll change the original array
+        if(n==0){
+            return arr;
+        }
+        if(n>index){
+            if(arr[index]>arr[index+1]){
+                int temp = arr[index];
+                arr[index] = arr[index+1];
+                arr[index+1] = temp;
+            }
+            sort(arr,n,index+1);
+        }
+      
+           return sort(arr,n-1,0);
+        
+    }
+
+     public static void sort2(int[] arr,int n, int index){ // this will change the original array
         if(n==0){
             return;
         }
         if(n>index){
             if(arr[index]>arr[index+1]){
-                int temp;
-                temp = arr[index];
+                int temp = arr[index];
                 arr[index] = arr[index+1];
                 arr[index+1] = temp;
             }
-            bubble(arr, n, index+1);
+            sort2(arr,n,index+1);
         }
-        else{
-            bubble(arr, n-1, 0);
-        }
+      else{
+           sort2(arr,n-1,0);
+      }
     }
 }
