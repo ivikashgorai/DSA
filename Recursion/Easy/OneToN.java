@@ -1,4 +1,4 @@
-package recursion.easy;
+package easy;
 
 public class OneToN {
     public static void main(String[] args) {

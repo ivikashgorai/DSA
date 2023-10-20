@@ -1,4 +1,4 @@
-package recursion.pattern;
+package pattern;
 
 public class One {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package recursion.merge_quick;
+package merge_quick;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package recursion.arrayques;
+package arrayques;
 
 public class IsSorted {
     public static void main(String[] args) {

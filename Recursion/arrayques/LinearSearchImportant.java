@@ -1,4 +1,4 @@
-package recursion.arrayques;
+package arrayques;
 
 import java.util.ArrayList;
 

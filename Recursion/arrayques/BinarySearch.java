@@ -1,4 +1,4 @@
-package recursion.arrayques;
+package arrayques;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1,2,6,9,11,15,17,21,25};

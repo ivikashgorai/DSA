@@ -1,4 +1,4 @@
-package recursion.subset_subsequence_string.basicstring;
+package subset_subsequence_string.basicstring;
 
 public class remove {
     public static void main(String[] args) {

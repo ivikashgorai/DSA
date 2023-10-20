@@ -1,4 +1,4 @@
-package recursion.arrayques;
+package arrayques;
 
 public class RotatedArray {
     //Example {5,6,7,8,1,2,3,4}

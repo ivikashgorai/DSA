@@ -1,4 +1,4 @@
-package recursion.easy;
+package easy;
 public class SumOfDifgitts {
     public static void main(String[] args) {
         int n = 1343;

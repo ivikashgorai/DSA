@@ -1,4 +1,4 @@
-package recursion.pattern;
+package pattern;
 
 import java.util.Arrays;
 
