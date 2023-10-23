@@ -1,0 +1,7 @@
+Question Type
+
+Recursion
+Array type(Sorting)
+Pattern
+Subset(Array)/Subsequences(String) type
+Permustation and Combination Type
