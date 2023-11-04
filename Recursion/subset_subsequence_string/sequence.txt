@@ -1,0 +1,4 @@
+basicString
+Subsequences
+Subset
+pnq

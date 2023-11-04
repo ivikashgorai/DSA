@@ -1,7 +1,5 @@
 package subset_subsequence_string.pnq;
 
-import java.util.*;
-
 public class Permutation {
     public static void main(String[] args) {
         String s = "abc";
