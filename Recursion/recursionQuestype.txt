@@ -4,5 +4,5 @@ Recursion
 Array type(Sorting)
 Pattern
 Subset(Array)/Subsequences(String) type
-Permustation and Combination Type
+Permutation and Combination Type
 BackTracking

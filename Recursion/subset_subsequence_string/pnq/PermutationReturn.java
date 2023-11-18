@@ -4,7 +4,7 @@ import java.util.*;
 
 public class PermutationReturn {
     public static void main(String[] args) {
-        String s = "abc";
+        String s = "123";
         String empty = "";
         System.out.println(perm(s, empty));
     }
