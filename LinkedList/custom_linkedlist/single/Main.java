@@ -1,7 +1,7 @@
 package LinkedList.custom_linkedlist.single;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // follow sequence.text
         LL one = new LL();
         one.insertAtFirst(2);
         one.insertAtFirst(6);
@@ -15,6 +15,8 @@ public class Main {
         one.deletelast(); //33 deleted
         one.deleteAtPosition(1);
         System.out.println(one.findValue(22)); // prints 3(index)
+        one.insertRec(9,2); // using recursion
+        one.insertRec(10, 3);
         one.display();
     }
 }

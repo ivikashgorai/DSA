@@ -1,4 +1,4 @@
-package LinkedList.custom_linkedlist.single;
+package LinkedList.dublicate;
 
 /**
  * LinkedList
@@ -12,7 +12,58 @@ public class LL { // private isliye rake hai kyuki bahar se access na kar sake
         this.size = 0;
     }
 
-   
+    public void deleteDub1(){ // first question leet code 83(solved by me) // draw and you will understand
+        Node tempFirst;
+        Node tempSec;
+        tempFirst = head;
+        tempSec = head.next;
+        while(tempFirst.next!=null){
+            while(tempSec!=null){
+                if(tempFirst.value == tempSec.value){
+                    if(tempSec.next!=null){
+                    tempSec = tempSec.next;
+                    }
+                    else{
+                        tempSec =null;
+                        tempFirst.next = null;
+                    }
+                }
+                else{
+                    tempFirst.next = tempSec;
+                    tempSec = tempSec.next;
+                    break;
+                }
+            }
+            if(tempFirst.next!=null){
+            tempFirst = tempFirst.next;
+            }
+        }
+    }
+
+    public void deleteDub2(){ // first question leet code 83(solved by me)
+        Node tempFirst;
+        Node tempSec;
+        tempFirst = head;
+        tempSec = head.next;
+        while(tempFirst.next!=null){
+            while(tempSec!=null){
+                if(tempFirst.value == tempSec.value){
+                    if(tempSec.next!=null){
+                    tempFirst.next = tempSec.next;
+                    }
+                    else{
+                    tempFirst.next =null;
+                    }
+                     break;
+                }
+                else{
+                    tempFirst = tempFirst.next;
+                }
+            }
+            tempSec = tempSec.next;
+        }
+    }
+
     public void insertRec(int value, int index) { // recursion use karke ek value ko ek index pe daalna hai
     insertRec1(value, index, head);
     }

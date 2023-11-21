@@ -1,1 +1,6 @@
+//study from copy
 Custom LinkedList --> Single , Doubly , Circularly
+removeDublicate
+merge sorted list --> leetcode 21
+Cycle Problem (imp trick) --> leetcode 141 , leetcode 142,202,876
+MergeSort Linkedlist(Single linked list file) Leetcode

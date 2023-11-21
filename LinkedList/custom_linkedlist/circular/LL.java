@@ -17,9 +17,9 @@ public class LL {
         return;
        }
        else{
-        tail.next = node;
         node.next = head;
-        tail = node;
+        tail.next = node;
+       tail = node;
        }
 
     }
