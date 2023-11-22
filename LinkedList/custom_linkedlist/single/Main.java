@@ -18,5 +18,7 @@ public class Main {
         one.insertRec(9,2); // using recursion
         one.insertRec(10, 3);
         one.display();
+        one.reverse();
+        one.display();
     }
 }

@@ -12,6 +12,22 @@ public class LL { // private isliye rake hai kyuki bahar se access na kar sake
         this.size = 0;
     }
 
+    public void reverse(){
+       head = recRev(head);
+    }
+ private Node recRev(Node head){
+    if (head == null || head.next == null) {
+        return head;
+    }
+    Node reversedList = recRev(head.next);
+
+
+    head.next.next = head;
+    head.next = null;
+    
+    return reversedList;
+    }
+
    
     public void insertRec(int value, int index) { // recursion use karke ek value ko ek index pe daalna hai
     insertRec1(value, index, head);
@@ -26,7 +42,35 @@ public class LL { // private isliye rake hai kyuki bahar se access na kar sake
         insertRec1(value, index-1, temp.next);
         return;
     }
+    public void bubbleSort(){
+     head = bubble(head);
 
+    }
+    private Node bubble(Node head){
+         if(head==null || head.next==null){
+            return head;
+        }
+        Node length = head;
+        Node first = head;
+        int len = 0;
+        Node temp = new Node(0);
+        while(length!=null){
+            len+=1;
+            length = length.next;
+        }
+        for(int i=1;i<=len-1;i++){
+            for(int j=1;j<=len-1-i;j++){
+                if(first.value>first.next.value){   
+                    first.next = first.next.next;
+                    first.next.next = first;                 
+                }
+                temp.next = first;
+                first = first.next;
+            }
+            first = temp;
+        }
+        return first;
+    }
     public void insertAtFirst(int value) {
         Node temp = new Node(value);
         temp.next = head;
