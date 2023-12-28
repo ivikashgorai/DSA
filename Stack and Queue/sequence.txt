@@ -1,2 +1,2 @@
 in_build -> StackExample.java,QueueExample.java,Deque.java
-Custom -> Stack
+Custom -> Stack -> CustomStack.java,StackMain.java ->Queue -> CustomQueue.java,QueueMain.java
