@@ -1,25 +1,25 @@
 
 import java.util.*;
 
-public class PreviousSmaller {
+public class NextSmaller {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
-        int[] arr = { 4, 2,1,5,6,3,2,4,2};
+        int[] arr = { 3, 10, 5, 1, 15, 10, 7, 6 };
         int[] ps = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-            // if (stack.isEmpty() || arr[i] > stack.peek()) {
+        for (int i = arr.length - 1; i >= 0; i--) {
+            // if (stack.isEmpty() || stack.peek() < arr[i]) {
             //     if (stack.isEmpty()) {
-            //         ps[i] = -1; // when anyelement have no previous smaller
+            //         ps[i] = 0;
             //     } else {
             //         ps[i] = stack.peek();
             //     }
             //     stack.push(arr[i]);
-            // } else { // not required of this
-                while (!stack.isEmpty() && stack.peek()>=arr[i]) {
+            // } else { // not required
+                while (!stack.empty() && stack.peek() >= arr[i]) {
                     stack.pop();
                 }
                 if (stack.isEmpty()) {
-                    ps[i] = -1;
+                    ps[i] = 0;
                 } else {
                     ps[i] = stack.peek();
                 }
