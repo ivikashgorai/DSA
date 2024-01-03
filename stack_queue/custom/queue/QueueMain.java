@@ -1,4 +1,4 @@
-package stack_queue.custom.queuecustom.Queue;
+package stack_queue.custom.queue;
 
 public class QueueMain {
 public static void main(String[] args) {
