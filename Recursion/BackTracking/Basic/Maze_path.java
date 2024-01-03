@@ -1,4 +1,4 @@
-package BackTracking.Basic;
+package backtracking.basic;
 
 class Maze_path {
 public static void main(String[] args) {

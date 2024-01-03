@@ -1,4 +1,4 @@
-package BackTracking.Basic;
+package backtracking.basic;
 
 
 public class Maze {

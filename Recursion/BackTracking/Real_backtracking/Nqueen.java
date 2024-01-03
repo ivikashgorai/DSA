@@ -1,4 +1,4 @@
-package BackTracking.Real_backtracking;
+package backtracking.real_backtracking;
 
 public class Nqueen {
     public static void main(String[] args) {

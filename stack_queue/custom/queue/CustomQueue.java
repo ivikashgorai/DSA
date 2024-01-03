@@ -1,4 +1,4 @@
-package Custom.Queue;
+package stack_queue.custom.queuecustom.Queue;
 
 public class CustomQueue{
     protected int[] data;

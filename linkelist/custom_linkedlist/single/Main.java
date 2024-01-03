@@ -1,4 +1,4 @@
-package LinkedList.custom_linkedlist.single;
+package linkelist.custom_linkedlist.single;
 
 public class Main {
     public static void main(String[] args) { // follow sequence.text

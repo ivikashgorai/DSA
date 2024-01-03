@@ -1,4 +1,4 @@
-package LinkedList.custom_linkedlist.single;
+package linkelist.custom_linkedlist.single;
 
 /**
  * LinkedList

@@ -1,4 +1,4 @@
-package LinkedList.dublicate;
+package linkelist.dublicate;
 
 /**
  * LinkedList

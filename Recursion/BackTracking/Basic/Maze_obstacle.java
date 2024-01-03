@@ -1,4 +1,4 @@
-package BackTracking.Basic;
+package backtracking.basic;
 
 public class Maze_obstacle {
     public static void main(String[] args) {

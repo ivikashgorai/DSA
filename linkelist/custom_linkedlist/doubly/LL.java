@@ -1,4 +1,4 @@
-package LinkedList.custom_linkedlist.doubly;
+package linkelist.custom_linkedlist.doubly;
 
 import java.security.PublicKey;
 

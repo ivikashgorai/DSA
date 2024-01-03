@@ -1,4 +1,4 @@
-package LinkedList.custom_linkedlist.doubly;
+package linkelist.custom_linkedlist.doubly;
 
 public class Main {
     public static void main(String[] args) {

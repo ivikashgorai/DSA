@@ -1,4 +1,4 @@
-package Trees.NormalTree;
+package trees.normal_tree;
 
 import java.util.*;
 public class Main {

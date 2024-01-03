@@ -1,13 +1,18 @@
-package trees.bst;
+package trees.avl;
 
-public class BinarySearchTree {
+
+public class AvlTree {
     private Node rootNode;
 
-    public BinarySearchTree() {
+    public AvlTree() {
 
     }
 
-    public int height(Node node) { // not require
+    public int height() { // height of rootNode
+        return height(rootNode);
+    }
+
+    private int height(Node node) {
         if (node == null) {
             return -1;
         }
@@ -65,7 +70,7 @@ public class BinarySearchTree {
         return;
     }
 
-    public boolean balanced() { // not require
+    public boolean balanced() {
         return balanced(rootNode);
     }
 
@@ -76,14 +81,15 @@ public class BinarySearchTree {
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
 
-    public void displayPreOrder(){
-        if(rootNode==null){
+    public void displayPreOrder() {
+        if (rootNode == null) {
             return;
         }
         displayPreOrder(rootNode);
     }
-    private void displayPreOrder(Node node){
-        if(node ==null){
+
+    private void displayPreOrder(Node node) {
+        if (node == null) {
             return;
         }
         System.out.println(node.value);
@@ -91,14 +97,16 @@ public class BinarySearchTree {
         displayPreOrder(node.right);
         return;
     }
-    public void displayInOrder(){
-        if(rootNode==null){
+
+    public void displayInOrder() {
+        if (rootNode == null) {
             return;
         }
         displayInOrder(rootNode);
     }
-    private void displayInOrder(Node node){
-        if(node ==null){
+
+    private void displayInOrder(Node node) {
+        if (node == null) {
             return;
         }
         displayInOrder(node.left);
@@ -107,21 +115,23 @@ public class BinarySearchTree {
         return;
     }
 
-     public void displayPostOrder(){
-        if(rootNode==null){
+    public void displayPostOrder() {
+        if (rootNode == null) {
             return;
         }
         displayPostOrder(rootNode);
     }
-    private void displayPostOrder(Node node){
-        if(node ==null){
+
+    private void displayPostOrder(Node node) {
+        if (node == null) {
             return;
         }
         displayPostOrder(node.left);
-           displayPostOrder(node.right);
+        displayPostOrder(node.right);
         System.out.println(node.value);
         return;
     }
+
     public class Node {
         private int value;
         private int height;

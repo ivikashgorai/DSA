@@ -1,4 +1,4 @@
-package LinkedList.custom_linkedlist.circular;
+package linkelist.custom_linkedlist.circular;
 
 public class LL {
     private Node head;
