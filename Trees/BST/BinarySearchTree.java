@@ -35,35 +35,26 @@ public class BinarySearchTree {
     }
 
     public void insert(int value) {
-        if (rootNode == null) {
-            Node dummy = new Node(value);
-            rootNode = dummy;
-            return;
+        rootNode = insert(value, rootNode);
+      }
+    
+      private Node insert(int value, Node node) {
+        if (node == null) {
+          node = new Node(value);
+          return node;
         }
-        insert(value, rootNode);
-    }
-
-    private void insert(int value, Node node) {
-        if (value < node.value && node.left == null) {
-            Node dummy = new Node(value);
-            node.left = dummy;
-            node.height = Math.max(height(node.left), height(node.right)) + 1;
-            return;
+    
+        if (value < node.value) {
+          node.left = insert(value, node.left);
         }
-        if (value > node.value && node.right == null) {
-            Node dummy = new Node(value);
-            node.right = dummy;
-            node.height = Math.max(height(node.left), height(node.right)) + 1;
-            return;
+    
+        if (value > node.value) {
+          node.right = insert(value, node.right);
         }
-
-        if (node.left != null && value < node.value) {
-            insert(value, node.left);
-        } else if (node.right != null && value > node.value) {
-            insert(value, node.right);
-        }
-        return;
-    }
+    
+        node.height = Math.max(height(node.left), height(node.right)) + 1;
+        return (node);
+      }
 
     public boolean balanced() { // not require
         return balanced(rootNode);
@@ -75,6 +66,22 @@ public class BinarySearchTree {
         }
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
+
+    public void populatedSorted(int[] nums) {
+        populatedSorted(nums, 0, nums.length);
+      }
+
+    private void populatedSorted(int[] nums, int start, int end) {
+        if (start >= end) {
+          return;
+        }
+    
+        int mid = (start + end) / 2;
+    
+        this.insert(nums[mid]);
+        populatedSorted(nums, start, mid);
+        populatedSorted(nums, mid + 1, end);
+      }
 
     public void displayPreOrder(){
         if(rootNode==null){

@@ -40,36 +40,86 @@ public class AvlTree {
     }
 
     public void insert(int value) {
-        if (rootNode == null) {
-            Node dummy = new Node(value);
-            rootNode = dummy;
-            return;
+        rootNode = insert(value, rootNode);
+      }
+    
+      private Node insert(int value, Node node) {
+        if (node == null) {
+          node = new Node(value);
+          return node;
         }
-        insert(value, rootNode);
-    }
+    
+        if (value < node.value) {
+          node.left = insert(value, node.left);
+        }
+    
+        if (value > node.value) {
+          node.right = insert(value, node.right);
+        }
+    
+        node.height = Math.max(height(node.left), height(node.right) )+ 1;
+        return rotate(node); // latly it will go to rootnode from node which is added in this process it will checked that if node is balanced or not 
+      }
 
-    private void insert(int value, Node node) {
-        if (value < node.value && node.left == null) {
-            Node dummy = new Node(value);
-            node.left = dummy;
-            node.height = Math.max(height(node.left), height(node.right)) + 1;
-            return;
+      private Node rotate(Node node) {
+        if (height(node.left) - height(node.right) > 1) {
+          // left heavy
+          if(height(node.left.left) - height(node.left.right) > 0) {
+            // left left case
+            return rightRotate(node);
+          }
+          if(height(node.left.left) - height(node.left.right) < 0) {
+            // left right case
+            node.left = leftRotate(node.left);
+            return rightRotate(node);
+          }
         }
-        if (value > node.value && node.right == null) {
-            Node dummy = new Node(value);
-            node.right = dummy;
-            node.height = Math.max(height(node.left), height(node.right)) + 1;
-            return;
+    
+        if (height(node.left) - height(node.right) < -1) {
+          // right heavy
+          if(height(node.right.left) - height(node.right.right) < 0) {
+            // right right case
+            return leftRotate(node);
+          }
+          if(height(node.right.left) - height(node.right.right) > 0) {
+            // left right case
+            node.right = rightRotate(node.right);
+            return leftRotate(node);
+          }
         }
+    
+        return node;
+      }
+    
+      public Node rightRotate(Node p) {
+        Node c = p.left;
+        Node t = c.right;
+    
+        c.right = p;
+        p.left = t;
+        
+        p.height = Math.max(height(p.left), height(p.right))+1;
+        c.height = Math.max(height(c.left), height(c.right))+1;
+    
+        return c;
+      }
+    
+      public Node leftRotate(Node c) {
+        Node p = c.right;
+        Node t = p.left;
+    
+        p.left = c;
+        c.right = t;
+        
+        p.height = Math.max(height(p.left), height(p.right))+1;
+        c.height = Math.max(height(c.left), height(c.right) )+1;
+    
+        return p;
 
-        if (node.left != null && value < node.value) {
-            insert(value, node.left);
-        } else if (node.right != null && value > node.value) {
-            insert(value, node.right);
-        }
-        return;
-    }
+      }
 
+
+      
     public boolean balanced() {
         return balanced(rootNode);
     }
@@ -80,6 +130,22 @@ public class AvlTree {
         }
         return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
     }
+
+    public void populatedSorted(int[] nums) {
+        populatedSorted(nums, 0, nums.length);
+      }
+
+    private void populatedSorted(int[] nums, int start, int end) {
+        if (start >= end) {
+          return;
+        }
+    
+        int mid = (start + end) / 2;
+    
+        this.insert(nums[mid]);
+        populatedSorted(nums, start, mid);
+        populatedSorted(nums, mid + 1, end);
+      }
 
     public void displayPreOrder() {
         if (rootNode == null) {
@@ -137,6 +203,8 @@ public class AvlTree {
         private int height;
         private Node left;
         private Node right;
+
+        public Node(){}
 
         public Node(int value) {
             this.value = value;
