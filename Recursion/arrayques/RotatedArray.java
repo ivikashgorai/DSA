@@ -3,7 +3,7 @@ package arrayques;
 public class RotatedArray {
     //Example {5,6,7,8,1,2,3,4}
     public static void main(String[] args) {
-        int[]  arr = {3,5,6,1,2};
+        int[]  arr = {3,5,6,7,0,1,2};
         int end = arr.length-1;
         int start =0;
         int peakindex;

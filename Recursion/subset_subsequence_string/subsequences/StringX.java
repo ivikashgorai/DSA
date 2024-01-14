@@ -5,7 +5,7 @@ package subset_subsequence_string.subsequences;
 public class StringX {
     public static void main(String[] args) {
         String subs = "";
-        String up = "abc";
+        String up = "Dhanbad";
         subsequenc(subs,up);
     }
     static void subsequenc(String subs,String up){

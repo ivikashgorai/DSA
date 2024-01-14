@@ -1,10 +1,9 @@
 package easy;
 public class Fibonacci {
     public static void main(String[] args) {
-        int n = 4;
-        for (int i = 0; i < n; i++) {
-            System.out.print(fib(i) + " ");
-        }
+        int ans = fib(4);
+        System.out.println(ans);
+        
     }
 
     public static int fib(int n) {
