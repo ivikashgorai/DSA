@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PushAtBottom",
+            "request": "launch",
+            "mainClass": "PushAtBottom",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MinPriority",
+            "request": "launch",
+            "mainClass": "heaps.inbuild_priority_queue.MinPriority",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Priority",
+            "request": "launch",
+            "mainClass": "heaps.inbuild_priority_queue.Priority",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Hashcode",
+            "request": "launch",
+            "mainClass": "hashmap.Hashcode",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "heaps.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SameQuesIfDubPresent",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.combination.subset.SameQuesIfDubPresent",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.permutation.string.Permutation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.combination.subset.Array",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "PermutationReturn",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.permutation.PermutationReturn",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.permutation.Permutation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Simple",
             "request": "launch",
             "mainClass": "Simple",

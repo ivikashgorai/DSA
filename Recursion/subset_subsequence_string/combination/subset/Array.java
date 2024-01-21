@@ -1,10 +1,10 @@
-package subset_subsequence_string.subset;
+package subset_subsequence_string.combination.subset;
 
 import java.util.ArrayList;
 
 public class Array {
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3}; // subset of this without recursion
+        int[] arr = {1, 2, 3}; // subset of this without recursion
         ArrayList<ArrayList<Integer>> ans = subset(arr);
             System.out.print(ans);
     }

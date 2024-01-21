@@ -1,4 +1,4 @@
-package subset_subsequence_string.subsequences;
+package subset_subsequence_string.combination.subsequences;
 
 
 

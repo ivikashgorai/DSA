@@ -1,4 +1,4 @@
-package subset_subsequence_string.pnq;
+package subset_subsequence_string.permutation.string;
 
 import java.util.*;
 

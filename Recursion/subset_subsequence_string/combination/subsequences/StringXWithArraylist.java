@@ -1,11 +1,11 @@
-package subset_subsequence_string.subsequences;
+package subset_subsequence_string.combination.subsequences;
 
 import java.util.ArrayList;
 
 public class StringXWithArraylist {
     public static void main(String[] args) {
         String subs = "";
-        String up = "Dhanbad";
+        String up = "abc";
         ArrayList<String> List = new ArrayList<>();
         System.out.println(subsequenc(subs,up,List)
         );
