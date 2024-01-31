@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Union_Intersection",
+            "request": "launch",
+            "mainClass": "hashing.hashset.Union_Intersection",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "hashing.hashset.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "hashmap.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Next_Smaller",
+            "request": "launch",
+            "mainClass": "Next_Smaller",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "PushAtBottom",
             "request": "launch",
             "mainClass": "PushAtBottom",

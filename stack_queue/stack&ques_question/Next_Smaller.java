@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class NextSmaller {
+public class Next_Smaller {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         int[] arr = { 3, 10, 5, 1, 15, 10, 7, 6 };
