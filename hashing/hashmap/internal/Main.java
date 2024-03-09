@@ -1,4 +1,4 @@
-package hashing.hashmap;
+package hashing.hashmap.internal;
 
 import java.util.*;
 class Main {

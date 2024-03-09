@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EvenCycle",
+            "request": "launch",
+            "mainClass": "bipartite.EvenCycle",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "OddCycle",
+            "request": "launch",
+            "mainClass": "bipartite.OddCycle",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "dfs",
+            "request": "launch",
+            "mainClass": "cycle.dfs",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "bfs",
+            "request": "launch",
+            "mainClass": "cycle.bfs",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "BFSAdjList",
+            "request": "launch",
+            "mainClass": "bfs.BFSAdjList",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "bfs",
+            "request": "launch",
+            "mainClass": "bfs",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "representation.Graph",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "dfs.Graph",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "bfs.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Adj",
+            "request": "launch",
+            "mainClass": "representation.Adj",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "BFSAdjList",
+            "request": "launch",
+            "mainClass": "BFSAdjList",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "Graph",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "hashing.hashmap.implementation.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Union_Intersection",
             "request": "launch",
             "mainClass": "hashing.hashset.Union_Intersection",

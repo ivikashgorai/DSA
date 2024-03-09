@@ -2,7 +2,7 @@ package merge_quick;
 import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {-1,2,-8,-10};
+        int[] arr = {1,2,3,9,6,4,8,11};
         quick1(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
         
