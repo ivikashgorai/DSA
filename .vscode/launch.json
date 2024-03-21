@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FloydMarsh",
+            "request": "launch",
+            "mainClass": "Floyd.FloydMarsh",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "BellamanFord",
+            "request": "launch",
+            "mainClass": "bellaman.BellamanFord",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "PQDij",
+            "request": "launch",
+            "mainClass": "dijkastra.PQDij",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "obj",
+            "request": "launch",
+            "mainClass": "revision.String.obj",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Mountain",
+            "request": "launch",
+            "mainClass": "revision.binarysearch.Mountain",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FirstLastOccur",
+            "request": "launch",
+            "mainClass": "revision.binarysearch.FirstLastOccur",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Ceiling",
+            "request": "launch",
+            "mainClass": "revision.binarysearch.Ceiling",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "DecToBin",
+            "request": "launch",
+            "mainClass": "revision.Basic.DecToBin",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "PQ",
+            "request": "launch",
+            "mainClass": "dijkastra.PQ",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "TopoSort",
+            "request": "launch",
+            "mainClass": "toposort.TopoSort",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "dfs",
+            "request": "launch",
+            "mainClass": "cycle.directed.dfs",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "EvenCycle",
             "request": "launch",
             "mainClass": "bipartite.EvenCycle",

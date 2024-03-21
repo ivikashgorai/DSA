@@ -1,0 +1,13 @@
+Like for finding contiguous max Array Sum
+
+take sum = 0;
+max = arr[i];
+
+then apply for loop{
+
+sum = sum + arr[i];
+if max  = Math.max(sum,max);
+if sum<0{
+    sum =0;
+}
+}
