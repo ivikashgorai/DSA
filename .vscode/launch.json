@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Krushkal",
+            "request": "launch",
+            "mainClass": "MST.Krushkal",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "UnionRank",
+            "request": "launch",
+            "mainClass": "disjoint_set.UnionRank",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Prims",
+            "request": "launch",
+            "mainClass": "MST.Prims",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "FloydMarsh",
             "request": "launch",
             "mainClass": "Floyd.FloydMarsh",
