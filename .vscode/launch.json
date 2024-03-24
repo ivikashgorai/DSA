@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "scckosaraju.Graph",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Krushkal",
             "request": "launch",
             "mainClass": "MST.Krushkal",
