@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringMatching",
+            "request": "launch",
+            "mainClass": "StringMatching",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "LongestPrefixSuffix",
+            "request": "launch",
+            "mainClass": "LongestPrefixSuffix",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "CpTemplate",
+            "request": "launch",
+            "mainClass": "CP.CpTemplate",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "CP.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "CpTemplate",
+            "request": "launch",
+            "mainClass": "CpTemplate",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Graph",
             "request": "launch",
             "mainClass": "scckosaraju.Graph",

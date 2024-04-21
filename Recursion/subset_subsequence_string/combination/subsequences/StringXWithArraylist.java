@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class StringXWithArraylist {
     public static void main(String[] args) {
         String subs = "";
-        String up = "abc";
+        String up = "123456789123456789";
         ArrayList<String> List = new ArrayList<>();
         System.out.println(subsequenc(subs,up,List)
         );
