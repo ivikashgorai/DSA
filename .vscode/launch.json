@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MakePalindrome",
+            "request": "launch",
+            "mainClass": "MakePalindrome",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "StringMatching",
             "request": "launch",
             "mainClass": "StringMatching",

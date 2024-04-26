@@ -3,7 +3,7 @@ import java.util.*;
 public class LongestPrefixSuffix{
     public static void main(String[] args) { //wrong
         Scanner sc = new Scanner(System.in);
-        String s = "ABCABDABCABCABD"; 
+        String s = "ABCABDABCABCABD"; //ABCABDABCABCABD
         int n = s.length();
         char[] ch = s.toCharArray();
         int[] arr = new int[n];
