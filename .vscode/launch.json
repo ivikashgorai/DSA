@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "backtracking.real_backtracking.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "MakePalindrome",
             "request": "launch",
             "mainClass": "MakePalindrome",
