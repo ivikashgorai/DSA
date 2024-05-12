@@ -8,6 +8,34 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Prac.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "heaps.implement_kunal.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Nqueen",
+            "request": "launch",
+            "mainClass": "recursion.backtracking.real_backtracking.Nqueen",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "heaps.implement_kunal.Main2",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "backtracking.real_backtracking.Main",
             "projectName": "DSA_54553694"
         },
