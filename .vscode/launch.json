@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DivideWithoutAnyOperator",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.DivideWithoutAnyOperator",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "XorOneToN",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.XorOneToN",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "subset",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.subset",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "removeLastBit",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.removeLastBit",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "clearIthBit",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.clearIthBit",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "setIthBit",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.setIthBit",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "ithBitSet",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.ithBitSet",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SwapTwoNum",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.SwapTwoNum",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "practice_ques.bit_manipulation.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Prac.Main",
