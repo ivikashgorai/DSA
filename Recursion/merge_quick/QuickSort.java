@@ -2,7 +2,7 @@ package merge_quick;
 import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,9,6,4,8,11};
+        int[] arr = {19,7,15,12,16,18,4,11,13};
         quick1(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
         
@@ -13,8 +13,7 @@ public class QuickSort {
         }
         int start = low;
         int end = high;
-        int mid = start + (end-start)/2;
-        int pivot = arr[mid];
+        int pivot = arr[end];
 
         while(start<=end){// if already sorted ,it will not do any action thats why we prefer quick sort over merge sort
             while(arr[start]<pivot){

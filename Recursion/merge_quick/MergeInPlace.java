@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeInPlace {
     public static void main(String[] args) {
-        int[] arr = {3,5,6,2,3,2,1,6,4,3,6,9,2};
+        int[] arr = {5,4,3,2,1};
         mergesort(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
     }

@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Dice",
+            "request": "launch",
+            "mainClass": "amazonques.Dice",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode17",
+            "request": "launch",
+            "mainClass": "practice_ques.recursion.Leetcode17",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPermutation",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.permutation.array.ArrayPermutation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SubstringCombination",
+            "request": "launch",
+            "mainClass": "practice_ques.recursion.SubstringCombination",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SubsequencePermuatation",
+            "request": "launch",
+            "mainClass": "practice_ques.recursion.SubsequencePermuatation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SubsquenceCombination",
+            "request": "launch",
+            "mainClass": "practice_ques.recursion.SubsquenceCombination",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Fibo",
+            "request": "launch",
+            "mainClass": "practice_ques.recursion.Fibo",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Kanpsack_01",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Kanpsack_01",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "DivideWithoutAnyOperator",
             "request": "launch",
             "mainClass": "practice_ques.bit_manipulation.DivideWithoutAnyOperator",
