@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JosephProbLC1823",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.JosephProbLC1823",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.TowerOfHanoi",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.Solution",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MaxGoodSubsequence",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.MaxGoodSubsequence",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SubsetSum",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.SubsetSum",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum2LC40",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.CombinationSum2LC40",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSumLC39",
+            "request": "launch",
+            "mainClass": "striver_playlist_question.CombinationSumLC39",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.combination.subset.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "WithRecursion",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.combination.subset.WithRecursion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "WithoutRecursion",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.combination.subset.WithoutRecursion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Dice",
             "request": "launch",
             "mainClass": "amazonques.Dice",

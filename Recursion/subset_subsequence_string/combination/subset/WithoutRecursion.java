@@ -1,8 +1,8 @@
 package subset_subsequence_string.combination.subset;
 
-import java.util.ArrayList;
+import java.util.*;
 
-public class Array {
+public class WithoutRecursion {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3}; // subset of this without recursion
         ArrayList<ArrayList<Integer>> ans = subset(arr);
