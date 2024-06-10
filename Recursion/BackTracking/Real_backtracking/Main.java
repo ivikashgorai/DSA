@@ -1,70 +1,70 @@
 package backtracking.real_backtracking;
 
-import java.util.*;
-
 public class Main {
+    static int moves = 0;
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        moves = 0;
+        int n = 3;  
+        // char[][] board = new char[n][n];
         boolean[][] board = new boolean[n][n];
-        nQueen(board, 0);
+        NQueen(board,n,0,0);
+        System.out.println(moves);
     }
-    public static void nQueen(boolean[][] board,int row){
-        if(row==board.length){
-            display(board);
+    static void NQueen(boolean[][] board,int knight,int r,int c){
+        if(knight==0){
+            moves+=1;
+            for(int i=0;i<board.length;i++){
+                for(int j=0;j<board[0].length;j++){
+                    if(board[i][j]){
+                        System.out.print("K ");
+                    }
+                    else{
+                        System.out.print("X ");
+                    } 
+                }
+                System.out.println();
+            }
             System.out.println();
             return;
         }
-        for(int col=0;col<board[0].length;col++)
-        {
-           if(isSafe(board,row,col)){
-            board[row][col] = true;
-            nQueen(board, row+1);
-            board[row][col] = false;
-           }
+        if(r == board.length-1 && c == board.length){
+            return;
         }
+        if(c==board[0].length){
+            NQueen(board, knight, r+1, 0);
+            return;
+        }
+                if(isSafe(board, r,c)){
+                    board[r][c] = true;
+                    NQueen(board, knight-1,r,c+1);
+                    board[r][c] = false;
+        }
+        NQueen(board, knight,r,c+1);
     }
-    public static boolean isSafe(boolean[][] board,int row,int col){
-        //check for up straight col
-        for(int i=0;i<row;i++){
-            if(board[i][col]){
-                return false;
-            }
+    static boolean isSafe(boolean[][] board,int row,int col){
+       if(col+2<board[0].length && row-1>=0){
+        if(board[row-1][col+2]){
+            return false;
         }
-
-        // check left diagonal
-        int lr = row;
-        int lc = col;
-        while(lr>=0 && lc>=0){
-            if(board[lr][lc]){
-                return false;
-            }
-            lr-=1;
-            lc-=1;
+       }
+       if(col-2>=0 && row-1>=0){
+       if( board[row-1][col-2]){
+        return false;
+       }
+       }
+       if(row-2>=0 && col+1<board[0].length){
+        if(board[row-2][col+1]){
+            return false;
         }
-         // check right diagonal
-    lr = row;
-        lc = col;
-        while(lr>=0 && lc<board[0].length){
-            if(board[lr][lc]){
-                return false;
-            }
-            lr-=1;
-            lc+=1;
+       }
+       if(row-2>=0 && col-1>=0){
+        if(board[row-2][col-1]){
+            return false;
         }
+       }
+       if(board[row][col]){
+        return false;
+       }
         return true;
-    }
-    public static void display(boolean[][] board){
-        for(int i=0;i<board.length;i++){
-            for(int j=0;j<board[0].length;j++){
-                if(board[i][j]){
-                    System.out.print("Q ");
-                }
-                else{
-                    System.out.print("X ");
-                }
-            }
-            System.out.println();
-        }
     }
 }

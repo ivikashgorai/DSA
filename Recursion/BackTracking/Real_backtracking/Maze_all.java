@@ -1,7 +1,7 @@
 package backtracking.real_backtracking;
 
 public class Maze_all {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //RLUD all 4 direction
         // let matrix is 3 X 3
         String empty = "";
         boolean[][] matrix = new boolean[3][3];

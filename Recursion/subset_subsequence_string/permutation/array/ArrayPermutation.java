@@ -12,7 +12,7 @@ public class ArrayPermutation {
 
     }
     public static void SubPerm(int[] arr,int index,ArrayList<ArrayList<Integer>> list){
-        if(index==arr.length-1){
+        if(index==arr.length){
             ArrayList<Integer> per = new ArrayList<>();
             for(int i=0;i<arr.length;i++){
                 per.add(arr[i]);
@@ -20,11 +20,16 @@ public class ArrayPermutation {
             list.add(per);
             return;
         }
+        
         for(int i=index;i<arr.length;i++){ // question copy
             int temp = arr[i];
             arr[i] = arr[index];
             arr[index] = temp;
             SubPerm(arr, index+1, list); 
-        }
+            int temp2 = arr[i]; // backtraking array mein jo swap kiye the laute time wo thik de rahe hai
+            arr[i] = arr[index];
+            arr[index] = temp2;
+                }
+
     }
 }

@@ -3,13 +3,17 @@ package backtracking.real_backtracking;
 import java.util.Arrays;
 
 public class Nkinght {
+    static int moves  = 0;
     public static void main(String[] args) {
+        moves  = 0;
         int n =3;
         boolean[][] board = new boolean[n][n];
         knight(board,0,0,n);
+        System.out.println(moves);
     }
     static void knight(boolean[][] board,int row,int col,int target){
         if(target==0){
+            moves+=1;
             for(int i=0;i<board.length;i++){
                 System.out.println(Arrays.toString(board[i]));
             }
@@ -28,7 +32,7 @@ public class Nkinght {
                 knight(board, row,col+1,target-1);
                 board[row][col] = false;
             }
-            knight(board, row, col+1, target);//in case no place is safe just move in another row
+            knight(board, row, col+1, target);//in case no place is safe just move in another col
     }
     static boolean isSafe(boolean[][] board, int row,int col){
         if(isValid(board, row-2, col-1)){

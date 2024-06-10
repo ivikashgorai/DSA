@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "backtracking.basic.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "JosephProbLC1823",
             "request": "launch",
             "mainClass": "striver_playlist_question.JosephProbLC1823",
