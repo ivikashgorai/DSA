@@ -6,6 +6,300 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubsequence.PrintLCS.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubs.PrintLCS.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubstring.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubs.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Memoize",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubs.Memoize",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Recursive",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubs.Recursive",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.CoinChangeII.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.CoinChangeII.Recursion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.CoinChangeII.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.CoinChangeI.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "RecursionCoin",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.CoinChangeI.RecursionCoin",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "UnboundedTable",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.UnboundedKanpsack.UnboundedTable",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "UnboundedMemo",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.UnboundedKanpsack.UnboundedMemo",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Unbounded",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.UnboundedKanpsack.Unbounded",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.NinjaTraining.Recursion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Memoize",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.NinjaTraining.Memoize",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.NinjaTraining.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.NinjaTraining.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.StriverCode.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.HouseRobber.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.StriverCode.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Memoize",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.StriverCode.Memoize",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Recursive",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.StriverCode.Recursive",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Memoize",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.Memoize",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "TabulationSolution",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.TabulationSolution",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "RecursionSolution",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.MinimumSumOfAdjacentElement.RecursionSolution",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.FrogJump2K.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "RecursionSolution",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.FrogJump2K.RecursionSolution",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FrogJumpTabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.FrogJump1.FrogJumpTabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FrogJumpTabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.FrogJumpCN.FrogJumpTabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FrogJumpRecursion",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.FrogJumpCN.FrogJumpRecursion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FrogJumpCN",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.FrogJumpCN.FrogJumpCN",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FrogJumpCN",
+            "request": "launch",
+            "mainClass": "FrogJumpCN",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "InnerSolution",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.TargetSum.InnerSolution",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Frog",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.TargetSum.Frog",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.TargetSum.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "LongDrive",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.TargetSum.LongDrive",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "RecusiveTargetSum",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.TargetSum.RecusiveTargetSum",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.SubsetSum.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveCode",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack_problems.SubsetSum.RecursiveCode",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Knapsack_recursive",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack.Knapsack_recursive",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Knapsack_01_tabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Knapsack.Knapsack_01_tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "backtracking.basic.Main",
