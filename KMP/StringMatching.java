@@ -4,7 +4,7 @@ public class StringMatching {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
         String s1 = "abcd"; //original
-        String s2 = "wxy";
+        String s2 = "cdab";
         int first = 0;
         int sec = 0;
         int[] lps = longestPrefixSuffix(s2);

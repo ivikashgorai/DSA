@@ -18,6 +18,7 @@ public class Tabulation {
             dp[0][j] = 0;
         }
         int max  = 0;
+        String s  = "";
         for(int i=1;i<m+1;i++){
             for(int j=1;j<n+1;j++){
         if(s1.charAt(i-1)==s2.charAt(j-1)){

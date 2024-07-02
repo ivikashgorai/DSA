@@ -1,0 +1,1 @@
+LC 300 Notes have dp(N2) and Binary search(O(NLongN)) method

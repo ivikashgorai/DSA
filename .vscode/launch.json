@@ -6,6 +6,160 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubstringWithKUniqueCharacter",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithKUniqueCharacter",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "LargestSubarrayOfSumK",
+            "request": "launch",
+            "mainClass": "LargestSubarrayOfSumK",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MaximumOfAllSubarrayOfSizeK",
+            "request": "launch",
+            "mainClass": "MaximumOfAllSubarrayOfSizeK",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "CountOccurrenceOfAnagram",
+            "request": "launch",
+            "mainClass": "CountOccurrenceOfAnagram",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "FirstNegativeNoSubarrayOfSizeK",
+            "request": "launch",
+            "mainClass": "FirstNegativeNoSubarrayOfSizeK",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "Main2",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.permutation.string.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.DpOnGrids.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MinimunPathSum",
+            "request": "launch",
+            "mainClass": "dynamic_programming.Striver.DpOnGrids.MinimunPathSum",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Eggdrop",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.MCM.Eggdrop",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "ScrambledString",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.MCM.ScrambledString",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "EvaluateToTrue",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.MCM.EvaluateToTrue",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "PalindromePartiotion",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.MCM.PalindromePartiotion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.MCM.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "BasicMAC",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.MCM.BasicMAC",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "PrintLCS.Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Tabulation",
+            "request": "launch",
+            "mainClass": "Tabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.UnboundedKanpsack.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Codechef",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubsequence.Codechef",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubsequence.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MaximumDistancePermutations",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubsequence.MaximumDistancePermutations",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "PrintTabulation",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubstring.PrintTabulation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "Tabulation",
             "request": "launch",
             "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubsequence.PrintLCS.Tabulation",

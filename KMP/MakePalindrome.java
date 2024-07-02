@@ -2,7 +2,7 @@ import java.util.*;
 public class MakePalindrome {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
-        String s1 = "cbbd"; // rkaa //jaha par peh
+        String s1 = "aacecaaa"; // rkaa //jaha par peh
         StringBuilder s2 = new StringBuilder(s1);
         s2 = s2.reverse();
         s1 = s1+""+s2;

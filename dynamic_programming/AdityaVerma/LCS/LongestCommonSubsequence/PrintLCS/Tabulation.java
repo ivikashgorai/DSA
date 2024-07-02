@@ -1,9 +1,9 @@
-package dynamic_programming.AdityaVerma.LCS.LongestCommonSubsequence.PrintLCS;
+package PrintLCS;
 
 public class Tabulation {
     public static void main(String[] args) {
         String s1 = "abcde";
-        String s2 = "abede";
+        String s2 = "labfgcnde";
         int m = s1.length();
         int n = s2.length();
        String ans = LongestCommonSubsTab(s1, s2, m, n);
