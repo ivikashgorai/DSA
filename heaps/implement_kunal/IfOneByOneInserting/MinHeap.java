@@ -1,4 +1,4 @@
-package heaps.implement_kunal;
+package heaps.implement_kunal.IfOneByOneInserting;
 
 import java.util.ArrayList;
 

@@ -15,28 +15,40 @@ public class LongestSubstringWithKUniqueCharacter {
         }
         while(j<n){
             while(count<=uni){
-                if(set.get(s.charAt(j))==0){
+                int b = set.get(s.charAt(j));
+                if(b==0){
                     set.put(s.charAt(j),1);
                     count+=1;
                 }
                 else{
-                    set.put(s.charAt(j),set.get(s.charAt(j))+1);
+                    set.put(s.charAt(j),b+1);
                 }
                 j+=1;
+                if(count==uni){
+                    len = Math.max(len,j-i);
+                }
+                
                 if(j==n){
                     break;
                 }
             }
-                len = Math.max(len,j-i); 
             while(count>uni){
                 int a = set.get(s.charAt(i));
-                set.put(s.charAt(i), set.get(s.charAt(i))-1);
+                set.put(s.charAt(i), a-1);
                 if(a==1){
                     count-=1;
                 }
                 i+=1;
             }
+            if(count==uni){
+                len = Math.max(len,j-i);
+            }
         }
+        if(len == Integer.MIN_VALUE){
+            System.out.println(0);
+        }
+        else{
         System.out.println(len);
+        }
     }
 }

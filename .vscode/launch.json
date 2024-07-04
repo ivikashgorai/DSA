@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubarrayTraverse",
+            "request": "launch",
+            "mainClass": "dynamic_programming.SubarrayTraverse",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "heaps.Questions.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Heapify",
+            "request": "launch",
+            "mainClass": "heaps.implement_kunal.ArrayAlreadyGiven.Heapify",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "KadaneAlgo",
+            "request": "launch",
+            "mainClass": "KadaneAlgo",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "LongestSubstringWithKUniqueCharacter",
             "request": "launch",
             "mainClass": "LongestSubstringWithKUniqueCharacter",

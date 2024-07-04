@@ -1,4 +1,4 @@
-package heaps.implement_kunal;
+package heaps.implement_kunal.IfOneByOneInserting;
 
 public class Main {
    public static void main(String[] args) throws Exception {
