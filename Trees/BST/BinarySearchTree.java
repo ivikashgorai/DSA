@@ -2,6 +2,7 @@ package trees.bst;
 
 public class BinarySearchTree {
     private Node rootNode;
+    public String value;
 
     public BinarySearchTree() {
 

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KnightTour",
+            "request": "launch",
+            "mainClass": "backtracking.real_backtracking.KnightTour",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TreesPractice.BST.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "SubarrayTraverse",
             "request": "launch",
             "mainClass": "dynamic_programming.SubarrayTraverse",

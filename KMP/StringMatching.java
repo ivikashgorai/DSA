@@ -1,10 +1,10 @@
 // import java.util.*;
 
 public class StringMatching {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // first 2nd wali string hai 1st wale mein present hai ya nhi
         // Scanner sc = new Scanner(System.in);
-        String s1 = "abcd"; //original
-        String s2 = "cdab";
+        String s1 = "abcd"; //original 
+        String s2 = "bc";
         int first = 0;
         int sec = 0;
         int[] lps = longestPrefixSuffix(s2);
