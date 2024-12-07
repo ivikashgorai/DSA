@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "C_Uninteresting_Number",
+            "request": "launch",
+            "mainClass": "C_Uninteresting_Number",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "B_Transfusion",
+            "request": "launch",
+            "mainClass": "B_Transfusion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "B_Game_with_Colored_Marbles",
+            "request": "launch",
+            "mainClass": "B_Game_with_Colored_Marbles",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "A_Greedy_Monocarp",
+            "request": "launch",
+            "mainClass": "A_Greedy_Monocarp",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MathPow",
+            "request": "launch",
+            "mainClass": "MathPow",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Office",
+            "request": "launch",
+            "mainClass": "Office",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "StringObs",
+            "request": "launch",
+            "mainClass": "StringObs",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main5",
+            "request": "launch",
+            "mainClass": "Main5",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "TrieImplementation",
+            "request": "launch",
+            "mainClass": "Trie.TrieImplementation",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "KadaneAlgo2",
+            "request": "launch",
+            "mainClass": "KadaneAlgo2",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Codechef",
+            "request": "launch",
+            "mainClass": "Codechef",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main3",
+            "request": "launch",
+            "mainClass": "Main3",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Memoize",
+            "request": "launch",
+            "mainClass": "Memoize",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "subarray.Main",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "M",
+            "request": "launch",
+            "mainClass": "M",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMedian",
+            "request": "launch",
+            "mainClass": "MatrixMedian",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "KnightTour",
             "request": "launch",
             "mainClass": "backtracking.real_backtracking.KnightTour",
