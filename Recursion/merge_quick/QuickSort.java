@@ -13,7 +13,8 @@ public class QuickSort {
         }
         int start = low;
         int end = high;
-        int pivot = arr[end];
+        int mid = start+(end-start)/2;
+        int pivot = arr[mid];
 
         while(start<=end){// if already sorted ,it will not do any action thats why we prefer quick sort over merge sort
             while(arr[start]<pivot){

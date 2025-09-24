@@ -2,8 +2,8 @@ package dynamic_programming.AdityaVerma.LCS.LongestCommonSubstring;
 
 public class Tabulation {
     public static void main(String[] args) {
-        String s1 = "ndkabcdeskas";
-        String s2 = "abcddhyabcde";
+        String s1 = "abcdgh";
+        String s2 = "abedga";
         int m = s1.length();
         int n = s2.length();
        int ans = LongestCommonSubstringTab(s1, s2, m, n);
@@ -23,7 +23,7 @@ public class Tabulation {
             for(int j=1;j<n+1;j++){
         if(s1.charAt(i-1)==s2.charAt(j-1)){
                dp[i][j] = 1+ dp[i-1][j-1];
-               max = Math.max(max, dp[i][j]); // max length lere abhi tak ka substring jitna bhi mila hai
+               max = Math.max(max, dp[i][j]); // max length lere abhi tak ka substring jitna bhi mila hai // can also be find at last -> max value stored in matrix
              
         }
         else{ // jaisi match nhi karta reset the length to 0

@@ -6,7 +6,7 @@ public class Nkinght {
     static int moves  = 0;
     public static void main(String[] args) {
         moves  = 0;
-        int n =3;
+        int n =4;
         boolean[][] board = new boolean[n][n];
         knight(board,0,0,n);
         System.out.println(moves);
@@ -32,7 +32,7 @@ public class Nkinght {
                 knight(board, row,col+1,target-1);
                 board[row][col] = false;
             }
-            knight(board, row, col+1, target);//in case no place is safe just move in another col
+            knight(board, row, col+1, target);//in case no place is safe just move in another col or skipping (row,col)
     }
     static boolean isSafe(boolean[][] board, int row,int col){
         if(isValid(board, row-2, col-1)){

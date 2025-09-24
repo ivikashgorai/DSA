@@ -13,11 +13,11 @@ public class dfs {
         g.AddEdge(8, 2);
         g.AddEdge(8, 9);
         g.AddEdge(9, 10);
-        // g.AddEdge(10, 8);
+        g.AddEdge(10, 8);
         boolean[] vis = new boolean[g.num_nodes];
         boolean[] path = new boolean[g.num_nodes];
-        for(int i=1;i<=10;i++){
-            directedCycle(g, vis, path,i);
+        for(int i=1;i<=10;i++){ // calling from every node cause may be you cant go to some node from a node, if dest'n node is opposite directed eg.  1<-2 you cant go from 1 to 2
+            directedCycle(g, vis, path,1);
         }
 
     }

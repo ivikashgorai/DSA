@@ -1,4 +1,4 @@
-package dynamic_programming.AdityaVerma.Knapsack_problems.Knapsack_original;
+package dynamic_programming.AdityaVerma.Knapsack_problems.Knapsack_bounded;
 
 import java.util.Arrays;
 

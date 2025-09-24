@@ -90,7 +90,7 @@ public class PQDij {
         five.add(fivfo);
         list.add(five);//5 list added
 
-        int[] distance = new int[list.size()];
+        int[] distance = new int[list.size()]; 
         boolean[] visited = new boolean[list.size()]; // for like uss node se uske adjacent dekh chuke hai agar true hai toh phir se nhi dekhenge uske adjacent uske respect mein
 
         // Initialize distances to infinity and mark all nodes as unvisited
@@ -104,7 +104,9 @@ public class PQDij {
         distance[startNode] = 0;
 
         // Priority queue to store nodes based on their distance
-        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> a.distance - b.distance);
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> 
+        Integer.compare(a.distance , b.distance)
+        );
         pq.offer(new Pair(startNode, distance[startNode]));
 
         while (!pq.isEmpty()) {

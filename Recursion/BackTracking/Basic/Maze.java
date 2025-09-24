@@ -3,7 +3,7 @@ package backtracking.basic;
 
 public class Maze { // how many paths to go to (n-1,n-1) index
     public static void main(String[] args) { // can only go right and down
-        int arr[][] = new int[2][2];
+        int arr[][] = new int[5][8];
         int endRow = arr.length - 1;
         int endCol = arr[0].length - 1;
         int sum = 0;

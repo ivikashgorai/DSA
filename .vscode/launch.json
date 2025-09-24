@@ -6,6 +6,188 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HCF",
+            "request": "launch",
+            "mainClass": "HCF",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayRecursion",
+            "request": "launch",
+            "mainClass": "SubarrayRecursion",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main7",
+            "request": "launch",
+            "mainClass": "Main7",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Main4",
+            "request": "launch",
+            "mainClass": "Main4",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "CasinoMaxCoins",
+            "request": "launch",
+            "mainClass": "CasinoMaxCoins",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "D_This_Is_the_Last_Time",
+            "request": "launch",
+            "mainClass": "D_This_Is_the_Last_Time",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "C_I_Will_Definitely_Make_It",
+            "request": "launch",
+            "mainClass": "C_I_Will_Definitely_Make_It",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "B_No_Casino_in_the_Mountains",
+            "request": "launch",
+            "mainClass": "B_No_Casino_in_the_Mountains",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "A_Only_One_Digit",
+            "request": "launch",
+            "mainClass": "A_Only_One_Digit",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "A_Blackboard_Game",
+            "request": "launch",
+            "mainClass": "A_Blackboard_Game",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Th",
+            "request": "launch",
+            "mainClass": "Th",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "BeautifulArrayProblem",
+            "request": "launch",
+            "mainClass": "BeautifulArrayProblem",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "B_Shrinking_Array",
+            "request": "launch",
+            "mainClass": "B_Shrinking_Array",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "A_Race",
+            "request": "launch",
+            "mainClass": "A_Race",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Recursive",
+            "request": "launch",
+            "mainClass": "dynamic_programming.AdityaVerma.LCS.LongestCommonSubstring.Recursive",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "SimpleMinHeap",
+            "request": "launch",
+            "mainClass": "heaps.implement_kunal.IfOneByOneInserting.SimpleMinHeap",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "StringX",
+            "request": "launch",
+            "mainClass": "subset_subsequence_string.combination.subsequences.StringX",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "E_Insane_Problem",
+            "request": "launch",
+            "mainClass": "E_Insane_Problem",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "B_Normal_Problem",
+            "request": "launch",
+            "mainClass": "B_Normal_Problem",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumOfMinimums",
+            "request": "launch",
+            "mainClass": "MaxSumOfMinimums",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumPermutations",
+            "request": "launch",
+            "mainClass": "MaxSumPermutations",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "C_Ordered_Permutations",
+            "request": "launch",
+            "mainClass": "C_Ordered_Permutations",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "AllPermutationsSubarrayMinimums",
+            "request": "launch",
+            "mainClass": "AllPermutationsSubarrayMinimums",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
+            "name": "B_Paint_a_Strip",
+            "request": "launch",
+            "mainClass": "B_Paint_a_Strip",
+            "projectName": "DSA_54553694"
+        },
+        {
+            "type": "java",
             "name": "C_Uninteresting_Number",
             "request": "launch",
             "mainClass": "C_Uninteresting_Number",

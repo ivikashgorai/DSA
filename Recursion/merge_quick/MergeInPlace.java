@@ -4,26 +4,26 @@ import java.util.Arrays;
 
 public class MergeInPlace {
     public static void main(String[] args) {
-        int[] arr = {5,4,3,2,1};
-        mergesort(arr, 0, arr.length);
+        int[] arr = {5,4,7,2,1};
+        mergesort(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 
     static void mergesort(int[] arr,int s, int e){
-        if(e-s==1){
+        if(e-s==0){
             return;
         }
         int mid = (s+e)/2;
         mergesort(arr, s,mid);
-        mergesort(arr, mid,e);
+        mergesort(arr, mid+1,e);
         merge(arr,s,mid,e);
     }
     static void merge(int[] arr,int start,int mid,int end){
-        int[]  mix = new int[end-start];
+        int[]  mix = new int[end-start+1];
         int i=start;
-        int j =mid;
+        int j =mid+1;
         int k =0;
-        while(i<mid && j<end){
+        while(i<=mid && j<=end){
             if(arr[i]>arr[j]){
                 mix[k]= arr[j];
                 j++;
@@ -34,12 +34,12 @@ public class MergeInPlace {
             }
             k++;
         }
-        while(i<mid){
+        while(i<=mid){
             mix[k] = arr[i];
             i++;
             k++;
         }
-        while(j<end){
+        while(j<=end){
             mix[k] = arr[j];
             j++;
             k++;

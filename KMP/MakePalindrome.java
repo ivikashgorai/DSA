@@ -9,7 +9,6 @@ public class MakePalindrome {
         // String s2 = "abamm";
             System.out.println(Arrays.toString(lps(s1)));
             // System.out.println(Arrays.toString(lps(s2)));
-
     }
     public static int[] lps(String s){
         char ch[] = s.toCharArray();
